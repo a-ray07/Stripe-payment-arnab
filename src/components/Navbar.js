@@ -1,41 +1,37 @@
-import * as React from "react";
+import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import { Grid } from "@mui/material";
 
 const Navbar = () => {
   return (
-    <>
-      <div className="navbar">
-        <Box sx={{ flexGrow: 1, paddingBottom: "5px" }}>
-          <AppBar
-            position="static"
-            sx={{ backgroundColor: "rgb(239, 241, 243)", padding: "0px" }}
-          >
-            <Toolbar>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar
+        position="static"
+        sx={{ backgroundColor: "rgb(239, 241, 243)", padding: "0px" }}
+      >
+        <Toolbar>
+          <Grid container alignItems="center">
+            <Grid item xs={12} sm={6}>
               <Typography
                 variant="h6"
                 component="div"
                 sx={{
-                  display: {
-                    xs: "none",
-                    sm: "block",
-                    color: "black",
-                    fontWeight: "bold",
-                    fontSize: "25px",
-                    fontFamily: "Papyrus",
-                  },
-                  flexGrow: 1,
+                  color: "black",
+                  fontWeight: "bold",
+                  fontSize: "25px",
+                  fontFamily: "Papyrus",
                 }}
               >
                 INDIPAY
               </Typography>
-            </Toolbar>
-          </AppBar>
-        </Box>
-      </div>
-    </>
+            </Grid>
+          </Grid>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 };
 
