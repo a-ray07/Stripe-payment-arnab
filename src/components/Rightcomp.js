@@ -123,7 +123,7 @@ const Rightcomp = () => {
             />
           </Typography>
           <CardActions sx={{ justifyContent: "center" }}>
-            <a href="https://buy.stripe.com/test_9AQcQkexE2Fh6oE9AA">
+            <a href="https://buy.stripe.com/test_3cseYs0GOa7JfZe3cd">
               <Button sx={{ fontSize: "35px" }}>$299</Button>
             </a>
           </CardActions>
