@@ -123,7 +123,7 @@ const Middlecomp = () => {
             />
           </Typography>
           <CardActions sx={{ justifyContent: "center" }}>
-            <a href="https://buy.stripe.com/test_3cseYs0GOa7JfZe3cd">
+            <a href="https://buy.stripe.com/test_bIYg2wcpw93FbIY3cf">
               <Button sx={{ fontSize: "35px" }}>$199</Button>
             </a>
           </CardActions>
